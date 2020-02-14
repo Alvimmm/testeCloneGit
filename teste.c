@@ -3,15 +3,19 @@
 
 int main(){
 
-    int idade, sub;
+    int idade;
 
     printf("Digite sua idade: ");
     scanf("%i", &idade);
 
-    sub = idade - 1;
+    idade--;
 
-    printf("A idade menos 1 é: %d", sub);
+    printf("A idade menos 1 é: %d", idade);
 
+    idade += 1;
+    
+    printf("Sua idade original é: %d", idade); 
+    
     printf("\n");
 
     return 0;
